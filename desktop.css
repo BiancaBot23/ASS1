@@ -12,7 +12,8 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    text-align: centre;
+    text-align:right;
+    text-shadow: 2px 2px 4px blue ;
 }
 
 form {
@@ -34,12 +35,8 @@ main {
     display: grid;
     align-items: center;
     padding-left: 30em;
-    animation: backround_color_change 40s infinite;
+    animation: backround_color_change 40s infinite;}
    
-}
-main img {
-    border-radius: 100%;
-}
 
 @keyframes backround_color_change {
     0%,100% {

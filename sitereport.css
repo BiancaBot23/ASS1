@@ -1,0 +1,15 @@
+main{
+    padding:10em;}
+
+h1{
+    text-shadow: 2px 2px 4px goldenrod;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    text-align: center;
+    gap: 2em;
+    padding:2em;
+
+}

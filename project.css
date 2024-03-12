@@ -3,6 +3,7 @@ main {
     grid-template-columns: repeat(2, auto);
     text-align: center;
     gap: 2em;
+    padding:10em;
     }
 
 
