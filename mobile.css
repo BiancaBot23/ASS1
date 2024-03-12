@@ -40,12 +40,15 @@ nav {
     left: 50%;
     width: 50%;
     height: 100vh;
-    animation:slideIn 1 forwards
+    animation: slideIn 1 forwards
     
 }
 
 nav ul {
-    list-style: none;}
+    list-style: none;
+    font-family:cursive;
+    row-gap: 10em;
+}
 
 #clicked .on {
     display: block;
@@ -80,4 +83,18 @@ form {
 input[type="submit"] {
     grid-column: 2;
     background-color: aqua;
+}
+
+main{
+    animation: backround_color_change 40s infinite;
+}
+
+@keyframes backround_color_change {
+    0%,100% {
+        background-color:rgb(182, 138, 146)
+    }
+25%,75% {background-color: rgb(146, 38, 38);}
+
+50% {background-color: rgb(119, 39, 194);}
+ 
 }
