@@ -4,7 +4,7 @@ body {
     grid-template-rows: auto;
     grid-template-areas:
         "header nav nav"
-        "main main main"
+        " main main main"
         "footer footer footer";
 }
 
@@ -33,4 +33,20 @@ main {
     min-height: 80vh;
     display: grid;
     align-items: center;
+    padding-left: 30em;
+    animation: backround_color_change 40s infinite;
+   
+}
+main img {
+    border-radius: 100%;
+}
+
+@keyframes backround_color_change {
+    0%,100% {
+        background-color:pink
+    }
+25%,75% {background-color: brown;}
+
+50% {background-color: blueviolet;}
+ 
 }

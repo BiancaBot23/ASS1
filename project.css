@@ -1,0 +1,14 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+    gap: 2em;
+    }
+
+
+
+main div {
+    border: 1px solid black;
+    padding: 1em;
+
+}
