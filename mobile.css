@@ -40,13 +40,12 @@ nav {
     left: 50%;
     width: 50%;
     height: 100vh;
-
+    animation:slideIn 1 forwards
+    
 }
 
 nav ul {
-    list-style: none;
-}
-
+    list-style: none;}
 
 #clicked .on {
     display: block;
@@ -66,6 +65,7 @@ nav ul {
 
 #clicked:target nav {
     display: block;
+    animation: slideOut 1 forwards
 }
 
 form {
@@ -81,15 +81,20 @@ input[type="submit"] {
     grid-column: 2;
     background-color: aqua;
 }
-
-@keyframes backgound_color_change {
-    0%,100% {
-        background-color: rgb(59, 41, 53);
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
     }
-
-    25% 75%{
-        background-color:rgb(87, 11, 58);
+    to {
+        transform: translateX(0);
     }
-    50% {background-color: rgb(31, 5, 19);
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
     }
 }
