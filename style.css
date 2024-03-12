@@ -1,0 +1,33 @@
+header {
+    background-color: peachpuff;
+    color:
+        black;
+    grid-area: header;
+    padding: 1em;
+}
+
+nav {
+    background-color: rgb(236, 220, 231);
+    color: white;
+    grid-area: nav;
+    
+}
+
+main {
+    background-color: rgb(59, 41, 53);
+    color: white;
+    grid-area: main;
+}
+
+
+footer {
+    background-color: #491f40;
+    color: white;
+    grid-area: footer;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: purple;
+}
