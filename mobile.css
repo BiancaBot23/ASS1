@@ -63,7 +63,7 @@ nav ul {
 }
 
 #clicked:target .off {
-    display: none;
+    display: block;
 }
 
 #clicked:target nav {
